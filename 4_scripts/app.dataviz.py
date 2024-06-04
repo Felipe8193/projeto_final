@@ -16,7 +16,7 @@ warnings.filterwarnings('ignore')
 
 engine = db.create_engine('sqlite:///bancodedados.db', echo = True)
 
-st.image('logo.png', caption='',width = 100)
+st.image('4_scripts/logo.png', caption='',width = 100)
 
 st.write('**Global unemployment Watch**')
 
